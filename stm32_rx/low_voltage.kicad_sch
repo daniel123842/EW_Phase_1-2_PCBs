@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f9fbb25f-99f1-48dd-a8f0-2d7a9b89d0c1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 36.83 77.47)
+		(size 77.47 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55da6c9c-8f1a-44c5-b0da-c869e856de3f")
+		(property "Sheetname" "MCU"
+			(at 36.83 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "low_voltage_stm.kicad_sch"
+			(at 36.83 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32_rx"
+				(path "/df2eee68-9211-4709-aa52-0070953818c3/0796e7dd-f836-4c1c-8676-47f22f9cd6a5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 82.55)
+		(size 104.14 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f04665e-2e61-4995-839d-4fcfccc474c7")
+		(property "Sheetname" "NFC"
+			(at 157.48 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "low_voltage_nfc.kicad_sch"
+			(at 157.48 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32_rx"
+				(path "/df2eee68-9211-4709-aa52-0070953818c3/0796e7dd-f836-4c1c-8676-47f22f9cd6a5"
+					(page "5")
+				)
+			)
+		)
+	)
+)

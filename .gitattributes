@@ -1,0 +1,15 @@
+# Finalized .gitattributes text rule additions
+* text=auto
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_prl text eol=lf
+*.TXT text eol=lf
+*.DRR text eol=lf
+
+# Protect explicit 3D and binary models from corruption
+*.stp binary
+*.step binary
+*.epw binary

@@ -1,0 +1,37 @@
+# KiCad Backup, Temporary, and Auto-Save Files
+*-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+*.lck
+*-rescue.kicad_sch
+*-rescue.lib
+*-rescue.dcm
+*.kicad_prl
+
+# Hardware Manufacturing & Documentation Outputs
+[Gg]erber/
+[Pp]lots/
+[Bb]om/
+[Cc]sv/
+*.gbr
+*.drl
+*.rpt
+*.pos
+*.pdf
+
+# Altium / Import artifacts
+/GerberNCdrills/
+*.OutJob
+*.PrjPcb*
+*.TXT
+*.DRR
+*.REP
+*.RUL
+*.apr
+*.EXTREP

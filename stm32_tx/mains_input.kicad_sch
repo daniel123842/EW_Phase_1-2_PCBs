@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c7cce39b-944c-49d7-97ec-24eb85281a14")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 45.72 48.26)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fa1b95f-1bb7-49ac-9da2-07b344fe0362")
+		(property "Sheetname" "EMI_FIlter"
+			(at 45.72 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emi_filter.kicad_sch"
+			(at 45.72 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32_tx"
+				(path "/efc6dd2d-ba7a-4354-8f61-3b228fddeb89/653f71c8-7262-4602-a268-2dda11551127"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 45.72)
+		(size 35.56 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fc64cb6-6fbe-42bd-8f88-7a4834434e19")
+		(property "Sheetname" "Auxiliary_12V"
+			(at 162.56 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "High_voltage_auxiliary.kicad_sch"
+			(at 162.56 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32_tx"
+				(path "/efc6dd2d-ba7a-4354-8f61-3b228fddeb89/653f71c8-7262-4602-a268-2dda11551127"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 48.26)
+		(size 39.37 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86ee8d32-e1cd-4422-9596-ff1db5b4f6c3")
+		(property "Sheetname" "rectifer"
+			(at 99.06 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mains_rectifer.kicad_sch"
+			(at 99.06 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32_tx"
+				(path "/efc6dd2d-ba7a-4354-8f61-3b228fddeb89/653f71c8-7262-4602-a268-2dda11551127"
+					(page "13")
+				)
+			)
+		)
+	)
+)
