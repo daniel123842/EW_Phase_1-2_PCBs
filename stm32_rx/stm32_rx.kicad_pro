@@ -427,6 +427,14 @@
     [
       "5f04665e-2e61-4995-839d-4fcfccc474c7",
       "NFC"
+    ],
+    [
+      "fce9b8c2-b3ec-4a7f-a1ce-b78473a09986",
+      "rectifier"
+    ],
+    [
+      "578367f2-6c4d-4f69-945d-524e4acaa7d2",
+      "High Voltage ADC"
     ]
   ],
   "text_variables": {}
