@@ -435,6 +435,10 @@
     [
       "578367f2-6c4d-4f69-945d-524e4acaa7d2",
       "High Voltage ADC"
+    ],
+    [
+      "169ffb55-2e2c-437b-967a-d6f8d2d63b87",
+      "5V_buck"
     ]
   ],
   "text_variables": {}

@@ -6,6 +6,56 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 215.9 85.09)
+		(size 46.99 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "169ffb55-2e2c-437b-967a-d6f8d2d63b87")
+		(property "Sheetname" "5V_buck"
+			(at 215.9 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_buck.kicad_sch"
+			(at 215.9 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 215.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stm32_rx"
+				(path "/df2eee68-9211-4709-aa52-0070953818c3/0796e7dd-f836-4c1c-8676-47f22f9cd6a5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 36.83 77.47)
 		(size 77.47 49.53)
 		(exclude_from_sim no)
@@ -48,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 157.48 82.55)
-		(size 104.14 48.26)
+		(at 134.62 80.01)
+		(size 63.5 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +114,7 @@
 		)
 		(uuid "5f04665e-2e61-4995-839d-4fcfccc474c7")
 		(property "Sheetname" "NFC"
-			(at 157.48 81.8384 0)
+			(at 134.62 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "low_voltage_nfc.kicad_sch"
-			(at 157.48 131.3946 0)
+			(at 134.62 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
